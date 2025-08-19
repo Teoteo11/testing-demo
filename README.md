@@ -2,14 +2,14 @@
 
 This is a simple demo of Cypress testing framework.
 
-## Installation
+## How install Cypress?
 
 ```bash
 npm install -D cypress
 ```
 
-## Launch for the first time below command to create the cypress folder structure
+## How to launch for the first time below command to create the cypress folder structure?
 
 ```bash
-npx cypress open
+npm run cypress:open
 ```
