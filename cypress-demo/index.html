@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cypress - Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <div class="display-text" id="display" data-testid="calculator-display">0</div>
+        </div>
+        
+        <div class="buttons">
+            <div class="button-row">
+                <button class="button function" id="clear" data-testid="btn-clear">AC</button>
+                <button class="button function" id="toggle-sign" data-testid="btn-toggle-sign">+/-</button>
+                <button class="button function" id="percentage" data-testid="btn-percentage">%</button>
+                <button class="button operator" id="divide" data-testid="btn-divide">÷</button>
+            </div>
+            
+            <div class="button-row">
+                <button class="button number" id="seven" data-testid="btn-7">7</button>
+                <button class="button number" id="eight" data-testid="btn-8">8</button>
+                <button class="button number" id="nine" data-testid="btn-9">9</button>
+                <button class="button operator" id="multiply" data-testid="btn-multiply">x</button>
+            </div>
+            
+            <div class="button-row">
+                <button class="button number" id="four" data-testid="btn-4">4</button>
+                <button class="button number" id="five" data-testid="btn-5">5</button>
+                <button class="button number" id="six" data-testid="btn-6">6</button>
+                <button class="button operator" id="subtract" data-testid="btn-subtract">-</button>
+            </div>
+            
+            <div class="button-row">
+                <button class="button number" id="one" data-testid="btn-1">1</button>
+                <button class="button number" id="two" data-testid="btn-2">2</button>
+                <button class="button number" id="three" data-testid="btn-3">3</button>
+                <button class="button operator" id="add" data-testid="btn-add">+</button>
+            </div>
+            
+            <div class="button-row">
+                <button class="button number zero" id="zero" data-testid="btn-0">0</button>
+                <button class="button number" id="decimal" data-testid="btn-decimal">,</button>
+                <button class="button operator" id="equals" data-testid="btn-equals">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>

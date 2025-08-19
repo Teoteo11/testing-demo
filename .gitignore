@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# Cypress generated files
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+*/cypress/videos/
+*/cypress/screenshots/
+*/cypress/downloads/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
